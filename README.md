@@ -35,3 +35,22 @@ planejamento/
 - Exportação CSV e JSON
 - Geração de gráficos
 
+## Estrutura do projeto
+
+salesinsight-py/
+│
+├── salesinsight.py         # Pipeline principal
+├── vendas.csv              # Dataset de vendas (gerado pelo próprio código ou externo)
+├── README.md               # Este arquivo
+└── outputs/
+ ├── metricas_por_mes.csv
+ ├── segmentacao_clientes.csv
+ ├── estatisticas_gerais.json
+ └── graficos/
+     ├── grafico_boxplot_categorias.png
+     ├── grafico_top_produtos.png
+     └── gráfico_receita_regiao.png
+     └── gráfico_distribuicao_receitas.png
+
+## Vídeo de demonstração
+https://drive.google.com/file/d/1L92tIFWbjTQPSn0e2ataPVtRCAj-D8Tv/view?usp=sharing
